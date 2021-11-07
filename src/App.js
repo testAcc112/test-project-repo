@@ -14,7 +14,7 @@ function App() {
   }
 
   function hideCartHandler() {
-    hideCartHandler(false);
+    setCartIsShown(false);
   }
 
   return (
